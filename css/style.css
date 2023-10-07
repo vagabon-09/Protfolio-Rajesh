@@ -1,0 +1,173 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@font-face {
+    font-family: 'baloo_bhai_regular';
+    src: url('/fonts/baloo_bhai_regular.ttf') format('woff2'),
+        /* Modern Browsers */
+        url('/fonts/baloo_bhai_regular.ttf') format('woff');
+    /* Older Browsers */
+    /* Add more src lines for different font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*header css*/
+#navBar {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 13px 0px;
+    margin: 0px 75px 0px 75px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container>ul>li>a {
+    text-decoration: none;
+    padding: 7px 20px 7px 20px;
+    border: 2px solid white;
+    color: black;
+    border-radius: 10px;
+    font-family: Inconsolata, monospace;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.header-container>ul>li>a:hover {
+    border: 2px solid #198CF7;
+    color: #198CF7;
+}
+
+
+#navTitle>h1 {
+    font-size: 40px;
+    display: flex;
+    font-family: baloo_bhai_regular;
+}
+
+#navBar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#navBar ul li {
+    margin-right: 10px;
+}
+
+#navBar ul li:last-child {
+    margin-right: 0;
+}
+
+.tSecond {
+    color: #198CF7;
+}
+/*body customise*/
+body{
+    overflow: hidden;
+}
+/*homepage container*/
+.myImage>img{
+    width: 28%;
+    margin: 6% 10% 0px 0px;
+}
+
+.myImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.homeTxt>h2{
+    display: flex;
+    font-size: -webkit-xxx-large;
+    font-family: 'baloo_bhai_regular';
+}
+
+.homeTxt>h3{
+    font-family: 'Inconsolata';
+    font-size: 29px;
+}
+
+.name{
+    color: #1762F5;
+}
+.homeTxt{
+    margin: 10% 0px 0px 0px;
+}
+.homeTxt>a>img{
+    height: 25px;
+    height: auto;
+    margin: 10% 0px 0px 0px;
+}
+
+
+
+
+.socialBtns{
+    display: flex;
+    justify-content: space-between;
+    margin: 12% 0px 0px 0px;
+    width: 68%;
+}
+
+
+.socialBtns>a{
+    width: 10%;
+}
+
+.socialBtns>a>img:hover{
+    transform: scale(1.1);
+}
+
+
+/* Style the full-screen container */
+.full-screen-container {
+    width: 100%;
+    /* 100% of viewport width */
+    height: 100vh;
+    /* 100% of viewport height */
+    background-color: #ffffff;
+    /* Set background color */
+    overflow: hidden;
+ 
+}
+
+/* Style the container that reveals on scroll */
+.container {
+    background-color: #f0f0f0;
+    /* Set background color */
+    margin-top: 100vh;
+
+}
+
+/* Enable scrolling for the container */
+.container {
+    height: auto;
+    /* Automatically expand height based on content */
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    transition: margin-top 0.5s;
+    /* Add smooth transition effect */
+}
+
+/* Style your content boxes as needed */
+.contentBox {
+    /* Your styles for content boxes */
+}
+
+/* Footer styles */
+.footer {
+    /* Your styles for the footer */
+}
