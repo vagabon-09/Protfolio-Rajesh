@@ -3,9 +3,9 @@
 
 @font-face {
     font-family: 'baloo_bhai_regular';
-    src: url('/fonts/baloo_bhai_regular.ttf') format('woff2'),
+    src: url('fonts/baloo_bhai_regular.ttf') format('woff2'),
         /* Modern Browsers */
-        url('/fonts/baloo_bhai_regular.ttf') format('woff');
+        url('fonts/baloo_bhai_regular.ttf') format('woff');
     /* Older Browsers */
     /* Add more src lines for different font formats if needed */
     font-weight: normal;
