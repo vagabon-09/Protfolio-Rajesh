@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: baloo_bhai_regular;
-    src: url('fonts/baloo_bhai_regular.ttf') format('woff2'),
-        url('fonts/baloo_bhai_regular.ttf') format('woff');
+    src: url('/fonts/baloo_bhai_regular.ttf') format('woff2'),
+        url('/fonts/baloo_bhai_regular.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
