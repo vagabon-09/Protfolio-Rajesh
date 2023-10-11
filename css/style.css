@@ -70,40 +70,45 @@
 .tSecond {
     color: #198CF7;
 }
+
 /*body customise*/
-body{
+body {
     overflow: hidden;
 }
+
 /*homepage container*/
-.myImage>img{
+.myImage>img {
     width: 28%;
     margin: 6% 10% 0px 0px;
 }
 
-.myImage{
+.myImage {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
-.homeTxt>h2{
+
+.homeTxt>h2 {
     display: flex;
     font-size: -webkit-xxx-large;
     font-family: baloo_bhai_regular;
 }
 
-.homeTxt>h3{
+.homeTxt>h3 {
     font-family: 'Inconsolata';
     font-size: 29px;
 }
 
-.name{
+.name {
     color: #1762F5;
 }
-.homeTxt{
+
+.homeTxt {
     margin: 10% 0px 0px 0px;
 }
-.homeTxt>a>img{
+
+.homeTxt>a>img {
     height: 25px;
     height: auto;
     margin: 10% 0px 0px 0px;
@@ -112,7 +117,7 @@ body{
 
 
 
-.socialBtns{
+.socialBtns {
     display: flex;
     justify-content: space-between;
     margin: 12% 0px 0px 0px;
@@ -120,11 +125,11 @@ body{
 }
 
 
-.socialBtns>a{
+.socialBtns>a {
     width: 10%;
 }
 
-.socialBtns>a>img:hover{
+.socialBtns>a>img:hover {
     transform: scale(1.1);
 }
 
@@ -138,7 +143,7 @@ body{
     background-color: #ffffff;
     /* Set background color */
     overflow: hidden;
- 
+
 }
 
 /* Style the container that reveals on scroll */
@@ -167,4 +172,103 @@ body{
 /* Footer styles */
 .footer {
     /* Your styles for the footer */
+}
+
+
+/* Making responsive size */
+
+
+@media (max-width: 768px) {
+    /* Styles for smaller screens (e.g., mobile) */
+    .myImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .myImage>img {
+        width: 55%;
+        margin: 6% 10% 0px 0px;
+    }
+
+
+    .homeTxt>h2 {
+        display: flex;
+        font-size: 32px;
+        font-family: baloo_bhai_regular;
+    }
+    .homeTxt>h3 {
+        font-family: 'Inconsolata';
+        font-size: 20px;
+    }
+
+    .homeTxt>a>img {
+        height: 39px;
+        margin: 9% 0px 0px 0px;
+    }
+
+    .socialBtns {
+        display: flex;
+        justify-content: space-between;
+        margin: 7% 0px 0px 0px;
+        width: 62%;
+    }
+
+    #navBar {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 0px 0px 0px 5px;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    #navBar ul {
+        list-style-type: none;
+        padding: 0;
+        display: none;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium-sized screens (e.g., tablets) */
+    .homeTxt>h2 {
+        display: flex;
+        font-size: 30px;
+        font-family: baloo_bhai_regular;
+    }
+
+    .homeTxt>a>img {
+        height: 40px;
+        margin: 5% 0px 0px 0px;
+    }
+
+    .homeTxt>h3 {
+        font-family: 'Inconsolata';
+        font-size: 24px;
+    }
+
+    .socialBtns {
+        display: flex;
+        justify-content: space-between;
+        margin: 6% 0px 0px 0px;
+        width: 53%;
+    }
+    #navBar ul {
+        list-style-type: none;
+        padding: 0;
+        display: none;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    /* Styles for larger screens (e.g., desktop) */
 }
