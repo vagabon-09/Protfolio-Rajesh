@@ -179,7 +179,12 @@ body {
 
 
 @media (max-width: 768px) {
+
     /* Styles for smaller screens (e.g., mobile) */
+    #hamburger_menue {
+        display: flex !important;
+    }
+
     .myImage {
         display: flex;
         justify-content: center;
@@ -198,6 +203,7 @@ body {
         font-size: 32px;
         font-family: baloo_bhai_regular;
     }
+
     .homeTxt>h3 {
         font-family: 'Inconsolata';
         font-size: 20px;
@@ -221,12 +227,14 @@ body {
         padding: 10px;
         margin: 0px 0px 0px 5px;
     }
+
     .header-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
     }
+
     #navBar ul {
         list-style-type: none;
         padding: 0;
@@ -234,10 +242,19 @@ body {
         flex-direction: column;
     }
 
+    #navTitle{
+        margin: 0px 0px 0px 0px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
     /* Styles for medium-sized screens (e.g., tablets) */
+    #hamburger_menue {
+        display: flex !important;
+    }
+
     .homeTxt>h2 {
         display: flex;
         font-size: 30px;
@@ -260,6 +277,7 @@ body {
         margin: 6% 0px 0px 0px;
         width: 53%;
     }
+
     #navBar ul {
         list-style-type: none;
         padding: 0;
@@ -267,8 +285,22 @@ body {
         flex-direction: column;
     }
 
+    .header-container {
+        justify-content: start;
+    }
+
+    #navTitle{
+        margin: 0px 0px 0px 82px;
+    }
+
 }
 
 @media (min-width: 1025px) {
     /* Styles for larger screens (e.g., desktop) */
+}
+
+/* making mobie friendly */
+#hamburger_menue {
+    display: none;
+    width: 30px;
 }
